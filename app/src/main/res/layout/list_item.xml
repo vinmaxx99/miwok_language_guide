@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/text_container">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:padding="16dp"
+        android:id="@+id/image"
+        android:background="@color/tan_background"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/miwokTranslationtv"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:text="sample"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/tan_background"/>
+
+            <TextView
+                android:id="@+id/defaultTranslationtv"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="24sp"
+                android:textColor="@color/tan_background"                android:text="sample"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/baseline_play_arrow_black_18"
+        android:layout_marginRight="16dp"
+
+        />
+</LinearLayout>
+
